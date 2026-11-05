@@ -1,0 +1,1194 @@
+{
+  "Обзор": {
+    "en": "Overview",
+    "pl": "Przegląd"
+  },
+  "Сеть узлов": {
+    "en": "Peer network",
+    "pl": "Sieć węzłów"
+  },
+  "Сообщения": {
+    "en": "Messages",
+    "pl": "Wiadomości"
+  },
+  "Файлы": {
+    "en": "Files",
+    "pl": "Pliki"
+  },
+  "Поддержка": {
+    "en": "Support",
+    "pl": "Pomoc"
+  },
+  "Настройки": {
+    "en": "Settings",
+    "pl": "Ustawienia"
+  },
+  "Открыт": {
+    "en": "Open",
+    "pl": "Otwarte"
+  },
+  "В работе": {
+    "en": "In progress",
+    "pl": "W toku"
+  },
+  "Есть ответ": {
+    "en": "Answered",
+    "pl": "Jest odpowiedź"
+  },
+  "Закрыт": {
+    "en": "Closed",
+    "pl": "Zamknięte"
+  },
+  "Скопировано": {
+    "en": "Copied",
+    "pl": "Skopiowano"
+  },
+  "Не удалось скопировать. Выделите текст вручную.": {
+    "en": "Could not copy. Select the text manually.",
+    "pl": "Nie udało się skopiować. Zaznacz tekst ręcznie."
+  },
+  "Вы подключены к сервису обнаружения": {
+    "en": "Connected to the discovery service",
+    "pl": "Połączono z usługą wykrywania"
+  },
+  "Обращение создано. Сохраните ключ доступа в настройках.": {
+    "en": "Ticket created. Save your access key in Settings.",
+    "pl": "Utworzono zgłoszenie. Zapisz klucz dostępu w ustawieniach."
+  },
+  "Обращение обновлено": {
+    "en": "Ticket updated",
+    "pl": "Zaktualizowano zgłoszenie"
+  },
+  "Сначала подключитесь к сети на странице «Обзор».": {
+    "en": "First connect to the network on the Overview page.",
+    "pl": "Najpierw połącz się z siecią na stronie Przegląd."
+  },
+  "Подтвердите, что понимаете особенности прямого соединения.": {
+    "en": "Confirm that you understand how direct connections work.",
+    "pl": "Potwierdź, że rozumiesz zasady połączenia bezpośredniego."
+  },
+  "Код комнаты должен содержать 32 символа.": {
+    "en": "The room code must contain 32 characters.",
+    "pl": "Kod pokoju musi mieć 32 znaki."
+  },
+  "Ваше пространство. Ваши правила.": {
+    "en": "Your space. Your rules.",
+    "pl": "Twoja przestrzeń. Twoje zasady."
+  },
+  "Общайтесь и делитесь файлами без регистрации и личных данных.": {
+    "en": "Chat and share files without signing up or sharing personal details.",
+    "pl": "Rozmawiaj i udostępniaj pliki bez rejestracji i danych osobowych."
+  },
+  "Участники, доступные через этот сервер обнаружения.": {
+    "en": "Peers available through this discovery server.",
+    "pl": "Uczestnicy dostępni przez ten serwer wykrywania."
+  },
+  "Личный диалог через зашифрованный P2P-канал.": {
+    "en": "A private conversation over an encrypted P2P channel.",
+    "pl": "Prywatna rozmowa przez szyfrowany kanał P2P."
+  },
+  "Передача файлов": {
+    "en": "File transfer",
+    "pl": "Przesyłanie plików"
+  },
+  "Отправляйте файлы напрямую собеседнику, до 5 МБ.": {
+    "en": "Send files directly to your peer, up to 5 MB.",
+    "pl": "Wysyłaj pliki bezpośrednio do rozmówcy, do 5 MB."
+  },
+  "Мы на связи": {
+    "en": "We're here to help",
+    "pl": "Jesteśmy w kontakcie"
+  },
+  "Задайте вопрос, сообщите об ошибке или предложите идею.": {
+    "en": "Ask a question, report a bug, or share an idea.",
+    "pl": "Zadaj pytanie, zgłoś błąd lub podziel się pomysłem."
+  },
+  "Управляйте своим доступом и приватностью.": {
+    "en": "Manage your access and privacy.",
+    "pl": "Zarządzaj dostępem i prywatnością."
+  },
+  "Личное пространство": {
+    "en": "Personal space",
+    "pl": "Twoja przestrzeń"
+  },
+  "Анонимный участник": {
+    "en": "Anonymous member",
+    "pl": "Anonimowy uczestnik"
+  },
+  "ПРОСТРАНСТВО": {
+    "en": "WORKSPACE",
+    "pl": "PRZESTRZEŃ"
+  },
+  "Меньше данных.": {
+    "en": "Less data.",
+    "pl": "Mniej danych."
+  },
+  "Больше свободы.": {
+    "en": "More freedom.",
+    "pl": "Więcej wolności."
+  },
+  "Никакой регистрации.": {
+    "en": "No registration.",
+    "pl": "Bez rejestracji."
+  },
+  "Никаких рекламных трекеров.": {
+    "en": "No advertising trackers.",
+    "pl": "Bez śledzenia reklamowego."
+  },
+  "О приватности": {
+    "en": "About privacy",
+    "pl": "O prywatności"
+  },
+  "Участник #": {
+    "en": "Member #",
+    "pl": "Uczestnik #"
+  },
+  "В сети": {
+    "en": "Online",
+    "pl": "Online"
+  },
+  "Не подключён": {
+    "en": "Offline",
+    "pl": "Offline"
+  },
+  "Настройки участника": {
+    "en": "Member settings",
+    "pl": "Ustawienia uczestnika"
+  },
+  "Сделано для свободы ↗": {
+    "en": "Made for freedom ↗",
+    "pl": "Stworzone dla wolności ↗"
+  },
+  "Открыть меню": {
+    "en": "Open menu",
+    "pl": "Otwórz menu"
+  },
+  "Пространство": {
+    "en": "Workspace",
+    "pl": "Przestrzeń"
+  },
+  "Сервис доступен": {
+    "en": "Service available",
+    "pl": "Usługa dostępna"
+  },
+  "Не подключено": {
+    "en": "Disconnected",
+    "pl": "Rozłączono"
+  },
+  "Центр помощи": {
+    "en": "Help center",
+    "pl": "Centrum pomocy"
+  },
+  "ПРИВАТНОСТЬ НАЧИНАЕТСЯ ЗДЕСЬ": {
+    "en": "PRIVACY STARTS HERE",
+    "pl": "TUTAJ ZACZYNA SIĘ PRYWATNOŚĆ"
+  },
+  "Повторить": {
+    "en": "Retry",
+    "pl": "Spróbuj ponownie"
+  },
+  "Скрыть ошибку": {
+    "en": "Dismiss error",
+    "pl": "Ukryj błąd"
+  },
+  "Подключение к сети": {
+    "en": "Network connection",
+    "pl": "Połączenie z siecią"
+  },
+  "Подключено": {
+    "en": "Connected",
+    "pl": "Połączono"
+  },
+  "Отключиться от сети": {
+    "en": "Disconnect from the network",
+    "pl": "Rozłącz z siecią"
+  },
+  "Подключиться к сети": {
+    "en": "Connect to the network",
+    "pl": "Połącz z siecią"
+  },
+  "Вы в своём пространстве": {
+    "en": "You're in your space",
+    "pl": "Jesteś w swojej przestrzeni"
+  },
+  "Один шаг до подключения": {
+    "en": "One step away from connecting",
+    "pl": "Jeden krok do połączenia"
+  },
+  "Создайте приватную комнату и пригласите собеседника.": {
+    "en": "Create a private room and invite someone.",
+    "pl": "Utwórz prywatny pokój i zaproś rozmówcę."
+  },
+  "Подключитесь, чтобы начать общение без регистрации.": {
+    "en": "Connect to start chatting without signing up.",
+    "pl": "Połącz się, aby rozmawiać bez rejestracji."
+  },
+  "Подключаемся…": {
+    "en": "Connecting…",
+    "pl": "Łączenie…"
+  },
+  "Отключиться": {
+    "en": "Disconnect",
+    "pl": "Rozłącz"
+  },
+  "Сообщения передаются только после входа в комнату": {
+    "en": "Messages are sent only after joining a room",
+    "pl": "Wiadomości są przesyłane dopiero po wejściu do pokoju"
+  },
+  "Без email, имени и номера телефона": {
+    "en": "No email, name, or phone number",
+    "pl": "Bez adresu e-mail, imienia i numeru telefonu"
+  },
+  "Сессия": {
+    "en": "Session",
+    "pl": "Sesja"
+  },
+  "Участники": {
+    "en": "Peers",
+    "pl": "Uczestnicy"
+  },
+  "Канал P2P": {
+    "en": "P2P channel",
+    "pl": "Kanał P2P"
+  },
+  "Не открыт": {
+    "en": "Not open",
+    "pl": "Nieotwarty"
+  },
+  "Ваша приватность": {
+    "en": "Your privacy",
+    "pl": "Twoja prywatność"
+  },
+  "Без личных данных": {
+    "en": "No personal details",
+    "pl": "Bez danych osobowych"
+  },
+  "Анонимный идентификатор": {
+    "en": "Anonymous identifier",
+    "pl": "Anonimowy identyfikator"
+  },
+  "Ваш ID": {
+    "en": "Your ID",
+    "pl": "Twój ID"
+  },
+  "Регистрация": {
+    "en": "Registration",
+    "pl": "Rejestracja"
+  },
+  "Не требуется": {
+    "en": "Not required",
+    "pl": "Niewymagana"
+  },
+  "Сторонние трекеры": {
+    "en": "Third-party trackers",
+    "pl": "Zewnętrzne narzędzia śledzące"
+  },
+  "Отсутствуют": {
+    "en": "None",
+    "pl": "Brak"
+  },
+  "Как устроена приватность": {
+    "en": "How privacy works",
+    "pl": "Jak działa prywatność"
+  },
+  "ПЕРВЫЕ ШАГИ": {
+    "en": "GETTING STARTED",
+    "pl": "PIERWSZE KROKI"
+  },
+  "Связь без лишних шагов": {
+    "en": "Connect in a few simple steps",
+    "pl": "Kontakt w kilku prostych krokach"
+  },
+  "Подключитесь к сети": {
+    "en": "Connect to the network",
+    "pl": "Połącz się z siecią"
+  },
+  "Создайте приватную комнату": {
+    "en": "Create a private room",
+    "pl": "Utwórz prywatny pokój"
+  },
+  "Пригласите собеседника": {
+    "en": "Invite someone",
+    "pl": "Zaproś rozmówcę"
+  },
+  "Создать комнату": {
+    "en": "Create a room",
+    "pl": "Utwórz pokój"
+  },
+  "Что вы хотите сделать?": {
+    "en": "What would you like to do?",
+    "pl": "Co chcesz zrobić?"
+  },
+  "Всё необходимое — под рукой": {
+    "en": "Everything you need, within reach",
+    "pl": "Wszystko, czego potrzebujesz, pod ręką"
+  },
+  "Начать разговор": {
+    "en": "Start a conversation",
+    "pl": "Rozpocznij rozmowę"
+  },
+  "Приватный диалог по коду комнаты.": {
+    "en": "A private conversation with a room code.",
+    "pl": "Prywatna rozmowa za pomocą kodu pokoju."
+  },
+  "Передать файл": {
+    "en": "Send a file",
+    "pl": "Wyślij plik"
+  },
+  "Напрямую, без хранения на сервере.": {
+    "en": "Directly, without server storage.",
+    "pl": "Bezpośrednio, bez przechowywania na serwerze."
+  },
+  "Получить помощь": {
+    "en": "Get help",
+    "pl": "Uzyskaj pomoc"
+  },
+  "Вопросы и идеи — анонимно.": {
+    "en": "Questions and ideas, anonymously.",
+    "pl": "Pytania i pomysły — anonimowo."
+  },
+  "Новости проекта": {
+    "en": "Project news",
+    "pl": "Aktualności projektu"
+  },
+  "ОБНОВЛЕНИЕ 1.0": {
+    "en": "UPDATE 1.0",
+    "pl": "AKTUALIZACJA 1.0"
+  },
+  "НОЯ": {
+    "en": "NOV",
+    "pl": "LIS"
+  },
+  "Приватное общение стало проще": {
+    "en": "Private conversations made simpler",
+    "pl": "Prywatne rozmowy stały się prostsze"
+  },
+  "Комнаты по приглашению, прямой обмен файлами и поддержка без email — в одном пространстве.": {
+    "en": "Invite-only rooms, direct file transfers, and support without email — all in one space.",
+    "pl": "Pokoje na zaproszenie, bezpośrednie przesyłanie plików i pomoc bez e-maila — w jednym miejscu."
+  },
+  "Открыть описание обновления": {
+    "en": "Read update details",
+    "pl": "Przeczytaj opis aktualizacji"
+  },
+  "Ваш голос меняет Mgła": {
+    "en": "Your voice shapes Mgła",
+    "pl": "Twój głos zmienia Mgłę"
+  },
+  "Есть идея? Помогите сделать сеть удобнее.": {
+    "en": "Have an idea? Help make the network easier to use.",
+    "pl": "Masz pomysł? Pomóż ulepszyć sieć."
+  },
+  "Предложить улучшение": {
+    "en": "Suggest an improvement",
+    "pl": "Zaproponuj ulepszenie"
+  },
+  "Доступные участники": {
+    "en": "Available peers",
+    "pl": "Dostępni uczestnicy"
+  },
+  "Подключиться": {
+    "en": "Connect",
+    "pl": "Połącz"
+  },
+  "Список содержит случайные ID. Маршрутизация через анонимизирующие узлы в этой версии не реализована.": {
+    "en": "This list contains random IDs. Routing through anonymity nodes is not implemented in this version.",
+    "pl": "Lista zawiera losowe identyfikatory. Ta wersja nie obsługuje routingu przez węzły anonimizujące."
+  },
+  "Вы пока вне сети": {
+    "en": "You're offline for now",
+    "pl": "Nie masz jeszcze połączenia"
+  },
+  "Подключитесь, затем откройте сайт в другом браузере — второй участник появится здесь.": {
+    "en": "Connect, then open the site in another browser — the second peer will appear here.",
+    "pl": "Połącz się, a następnie otwórz stronę w innej przeglądarce — drugi uczestnik pojawi się tutaj."
+  },
+  "Участник": {
+    "en": "Peer",
+    "pl": "Uczestnik"
+  },
+  "Тип соединения": {
+    "en": "Connection type",
+    "pl": "Typ połączenia"
+  },
+  "Статус": {
+    "en": "Status",
+    "pl": "Status"
+  },
+  "Последняя активность": {
+    "en": "Last active",
+    "pl": "Ostatnia aktywność"
+  },
+  "ВЫ": {
+    "en": "YOU",
+    "pl": "TY"
+  },
+  "Обнаружение через Go API": {
+    "en": "Discovery via Go API",
+    "pl": "Wykrywanie przez Go API"
+  },
+  "Создать приватную комнату": {
+    "en": "Create a private room",
+    "pl": "Utwórz prywatny pokój"
+  },
+  "Нет комнаты": {
+    "en": "No room",
+    "pl": "Brak pokoju"
+  },
+  "Ожидаем собеседника": {
+    "en": "Waiting for a peer",
+    "pl": "Oczekiwanie na rozmówcę"
+  },
+  "Устанавливаем P2P-канал": {
+    "en": "Establishing a P2P channel",
+    "pl": "Nawiązywanie kanału P2P"
+  },
+  "P2P-канал открыт": {
+    "en": "P2P channel open",
+    "pl": "Kanał P2P otwarty"
+  },
+  "Соединение прервано": {
+    "en": "Connection interrupted",
+    "pl": "Połączenie przerwane"
+  },
+  "Ошибка соединения": {
+    "en": "Connection error",
+    "pl": "Błąd połączenia"
+  },
+  "Скопировать код комнаты": {
+    "en": "Copy room code",
+    "pl": "Skopiuj kod pokoju"
+  },
+  "Вы вышли из комнаты": {
+    "en": "You left the room",
+    "pl": "Opuszczono pokój"
+  },
+  "Выйти": {
+    "en": "Leave",
+    "pl": "Wyjdź"
+  },
+  "Комната": {
+    "en": "Room",
+    "pl": "Pokój"
+  },
+  "Для работы через интернет настройте STUN/TURN. По умолчанию поддерживается прямая связь в локальной сети.": {
+    "en": "Configure STUN/TURN for internet use. Direct connections on a local network are supported by default.",
+    "pl": "Aby korzystać przez internet, skonfiguruj STUN/TURN. Domyślnie obsługiwane są bezpośrednie połączenia w sieci lokalnej."
+  },
+  "Здесь начинается ваш разговор": {
+    "en": "Your conversation starts here",
+    "pl": "Tutaj zaczyna się wasza rozmowa"
+  },
+  "Разговор только для вас двоих": {
+    "en": "A conversation just for you two",
+    "pl": "Rozmowa tylko dla was dwojga"
+  },
+  "Передайте код комнаты собеседнику другим способом. Сообщения исчезнут после выхода.": {
+    "en": "Share the room code with your peer through another channel. Messages disappear when you leave.",
+    "pl": "Przekaż kod pokoju rozmówcy innym kanałem. Wiadomości znikną po wyjściu."
+  },
+  "Создайте комнату или войдите по коду. История не сохраняется на сервере.": {
+    "en": "Create a room or join with a code. History is not stored on the server.",
+    "pl": "Utwórz pokój lub dołącz kodem. Historia nie jest zapisywana na serwerze."
+  },
+  "Создать или войти": {
+    "en": "Create or join",
+    "pl": "Utwórz lub dołącz"
+  },
+  "Вы": {
+    "en": "You",
+    "pl": "Ty"
+  },
+  "Собеседник": {
+    "en": "Peer",
+    "pl": "Rozmówca"
+  },
+  "Сообщение собеседнику": {
+    "en": "Message to your peer",
+    "pl": "Wiadomość do rozmówcy"
+  },
+  "Напишите сообщение…": {
+    "en": "Write a message…",
+    "pl": "Napisz wiadomość…"
+  },
+  "Ожидаем прямое соединение…": {
+    "en": "Waiting for a direct connection…",
+    "pl": "Oczekiwanie na połączenie bezpośrednie…"
+  },
+  "Отправить сообщение": {
+    "en": "Send message",
+    "pl": "Wyślij wiadomość"
+  },
+  "WebRTC шифрует канал. Сервер не получает текст сообщений.": {
+    "en": "WebRTC encrypts the channel. The server does not receive message content.",
+    "pl": "WebRTC szyfruje kanał. Serwer nie otrzymuje treści wiadomości."
+  },
+  "Файл отправлен в P2P-канал": {
+    "en": "File sent over the P2P channel",
+    "pl": "Plik wysłano kanałem P2P"
+  },
+  "Отправить файл собеседнику": {
+    "en": "Send a file to your peer",
+    "pl": "Wyślij plik rozmówcy"
+  },
+  "До 5 МБ · напрямую через WebRTC · без загрузки на сервер": {
+    "en": "Up to 5 MB · directly over WebRTC · no server upload",
+    "pl": "Do 5 MB · bezpośrednio przez WebRTC · bez wysyłania na serwer"
+  },
+  "Передаём…": {
+    "en": "Sending…",
+    "pl": "Przesyłanie…"
+  },
+  "Выбрать файл": {
+    "en": "Choose a file",
+    "pl": "Wybierz plik"
+  },
+  "Сначала соедините два браузера в одной комнате.": {
+    "en": "First connect two browsers in the same room.",
+    "pl": "Najpierw połącz dwie przeglądarki w tym samym pokoju."
+  },
+  "КБ ·": {
+    "en": "KB ·",
+    "pl": "KB ·"
+  },
+  "Отправлен": {
+    "en": "Sent",
+    "pl": "Wysłano"
+  },
+  "Получен": {
+    "en": "Received",
+    "pl": "Odebrano"
+  },
+  "Скачать": {
+    "en": "Download",
+    "pl": "Pobierz"
+  },
+  "Обращение в поддержку": {
+    "en": "Contact support",
+    "pl": "Kontakt z pomocą"
+  },
+  "Техническая проблема или вопрос": {
+    "en": "A technical problem or question",
+    "pl": "Problem techniczny lub pytanie"
+  },
+  "Предложить идею": {
+    "en": "Share an idea",
+    "pl": "Zaproponuj pomysł"
+  },
+  "Сделаем Mgła удобнее вместе": {
+    "en": "Let's make Mgła better together",
+    "pl": "Ulepszmy Mgłę razem"
+  },
+  "Ответы на вопросы": {
+    "en": "Frequently asked questions",
+    "pl": "Odpowiedzi na pytania"
+  },
+  "Быстрая помощь без ожидания": {
+    "en": "Quick help without the wait",
+    "pl": "Szybka pomoc bez czekania"
+  },
+  "Кабинет разработчика": {
+    "en": "Developer dashboard",
+    "pl": "Panel programisty"
+  },
+  "Мои обращения": {
+    "en": "My tickets",
+    "pl": "Moje zgłoszenia"
+  },
+  "Ответы, статусы и история переписки с пользователями.": {
+    "en": "Replies, statuses, and conversation history with users.",
+    "pl": "Odpowiedzi, statusy i historia rozmów z użytkownikami."
+  },
+  "Ответы доступны здесь по вашему ключу — email не нужен.": {
+    "en": "Access replies here with your key — no email needed.",
+    "pl": "Odpowiedzi są dostępne tutaj dzięki kluczowi — e-mail nie jest potrzebny."
+  },
+  "Создать тикет": {
+    "en": "Create a ticket",
+    "pl": "Utwórz zgłoszenie"
+  },
+  "Поиск по теме…": {
+    "en": "Search by subject…",
+    "pl": "Szukaj po temacie…"
+  },
+  "Поиск обращений": {
+    "en": "Search tickets",
+    "pl": "Szukaj zgłoszeń"
+  },
+  "Статус обращения": {
+    "en": "Ticket status",
+    "pl": "Status zgłoszenia"
+  },
+  "Все статусы": {
+    "en": "All statuses",
+    "pl": "Wszystkie statusy"
+  },
+  "Обновить обращения": {
+    "en": "Refresh tickets",
+    "pl": "Odśwież zgłoszenia"
+  },
+  "Пока ни одного обращения": {
+    "en": "No tickets yet",
+    "pl": "Nie ma jeszcze zgłoszeń"
+  },
+  "Расскажите о проблеме или предложите улучшение. Разработчик сможет ответить в этом же тикете.": {
+    "en": "Report a problem or suggest an improvement. A developer can reply in the same ticket.",
+    "pl": "Opisz problem lub zaproponuj ulepszenie. Programista odpowie w tym samym zgłoszeniu."
+  },
+  "По вашему запросу ничего не найдено.": {
+    "en": "No results match your search.",
+    "pl": "Brak wyników dla tego wyszukiwania."
+  },
+  "Закрыть переписку": {
+    "en": "Close conversation",
+    "pl": "Zamknij rozmowę"
+  },
+  "Разработчик": {
+    "en": "Developer",
+    "pl": "Programista"
+  },
+  "Пользователь": {
+    "en": "User",
+    "pl": "Użytkownik"
+  },
+  "Напишите ответ…": {
+    "en": "Write a reply…",
+    "pl": "Napisz odpowiedź…"
+  },
+  "Ответ в тикете": {
+    "en": "Ticket reply",
+    "pl": "Odpowiedź w zgłoszeniu"
+  },
+  "Отправить": {
+    "en": "Send",
+    "pl": "Wyślij"
+  },
+  "Взять в работу": {
+    "en": "Start working on it",
+    "pl": "Podejmij zgłoszenie"
+  },
+  "Открыть повторно": {
+    "en": "Reopen",
+    "pl": "Otwórz ponownie"
+  },
+  "Закрыть обращение": {
+    "en": "Close ticket",
+    "pl": "Zamknij zgłoszenie"
+  },
+  "Оцените помощь": {
+    "en": "Rate your support",
+    "pl": "Oceń pomoc"
+  },
+  "Оценка": {
+    "en": "Rating",
+    "pl": "Ocena"
+  },
+  "Выберите обращение,": {
+    "en": "Select a ticket",
+    "pl": "Wybierz zgłoszenie,"
+  },
+  "чтобы открыть переписку.": {
+    "en": "to open the conversation.",
+    "pl": "aby otworzyć rozmowę."
+  },
+  "Не включайте в обращение пароли и личные данные.": {
+    "en": "Do not include passwords or personal information in your ticket.",
+    "pl": "Nie podawaj haseł ani danych osobowych w zgłoszeniu."
+  },
+  "Вход для разработчика": {
+    "en": "Developer sign-in",
+    "pl": "Logowanie programisty"
+  },
+  "Ваш ключ доступа": {
+    "en": "Your access key",
+    "pl": "Twój klucz dostępu"
+  },
+  "Без регистрации": {
+    "en": "No registration",
+    "pl": "Bez rejestracji"
+  },
+  "Ключ открывает ваши обращения на другом устройстве. Сохраните его в надёжном месте: восстановление по email невозможно.": {
+    "en": "Your key opens your tickets on another device. Keep it safe: email recovery is not available.",
+    "pl": "Klucz otwiera zgłoszenia na innym urządzeniu. Zapisz go w bezpiecznym miejscu: odzyskanie przez e-mail nie jest możliwe."
+  },
+  "Ключ ещё не создан": {
+    "en": "Key not created yet",
+    "pl": "Klucz nie został jeszcze utworzony"
+  },
+  "Скопировать ключ": {
+    "en": "Copy key",
+    "pl": "Skopiuj klucz"
+  },
+  "Войти по ключу": {
+    "en": "Sign in with a key",
+    "pl": "Zaloguj się kluczem"
+  },
+  "Приватность по умолчанию": {
+    "en": "Privacy by default",
+    "pl": "Prywatność domyślnie"
+  },
+  "Случайный идентификатор": {
+    "en": "Random identifier",
+    "pl": "Losowy identyfikator"
+  },
+  "Без имени, телефона и email": {
+    "en": "No name, phone number, or email",
+    "pl": "Bez imienia, telefonu i e-maila"
+  },
+  "Переписка в памяти браузера": {
+    "en": "Chat stored in browser memory",
+    "pl": "Rozmowa w pamięci przeglądarki"
+  },
+  "Исчезает при выходе из комнаты": {
+    "en": "Disappears when you leave the room",
+    "pl": "Znika po opuszczeniu pokoju"
+  },
+  "Тикеты доступны по ключу": {
+    "en": "Tickets accessible with your key",
+    "pl": "Zgłoszenia dostępne przez klucz"
+  },
+  "Содержимое хранится у сервиса поддержки": {
+    "en": "Content is stored by the support service",
+    "pl": "Treść jest przechowywana przez obsługę pomocy"
+  },
+  "Без аналитики и рекламы": {
+    "en": "No analytics or ads",
+    "pl": "Bez analityki i reklam"
+  },
+  "Интерфейс не загружает сторонние шрифты": {
+    "en": "The interface loads no third-party fonts",
+    "pl": "Interfejs nie pobiera zewnętrznych czcionek"
+  },
+  "Подробнее о границах анонимности": {
+    "en": "More about the limits of anonymity",
+    "pl": "Więcej o granicach anonimowości"
+  },
+  "Вы контролируете доступ": {
+    "en": "You control access",
+    "pl": "Ty kontrolujesz dostęp"
+  },
+  "Не передавайте ключ доступа собеседникам. Для приглашения нужен только отдельный код комнаты.": {
+    "en": "Do not share your access key with peers. Invitations only require the separate room code.",
+    "pl": "Nie przekazuj rozmówcom klucza dostępu. Do zaproszenia wystarczy osobny kod pokoju."
+  },
+  "Если устройство общее, завершите сессию: ключ будет удалён из этого браузера, а тикеты останутся доступны по сохранённому ключу.": {
+    "en": "On a shared device, end your session: the key will be removed from this browser, and tickets will remain accessible with your saved key.",
+    "pl": "Na wspólnym urządzeniu zakończ sesję: klucz zostanie usunięty z tej przeglądarki, a zgłoszenia pozostaną dostępne przez zapisany klucz."
+  },
+  "Завершить сессию": {
+    "en": "End session",
+    "pl": "Zakończ sesję"
+  },
+  "Mgła — пространство без лишних следов.": {
+    "en": "Mgła — a space with fewer traces.",
+    "pl": "Mgła — przestrzeń bez zbędnych śladów."
+  },
+  "Учебный проект · Человек–компьютер": {
+    "en": "Academic project · Human–computer interaction",
+    "pl": "Projekt akademicki · Interakcja człowiek–komputer"
+  },
+  "Приватность": {
+    "en": "Privacy",
+    "pl": "Prywatność"
+  },
+  "Закрыть окно": {
+    "en": "Close dialog",
+    "pl": "Zamknij okno"
+  },
+  "Давайте разберёмся вместе": {
+    "en": "Let's work it out together",
+    "pl": "Rozwiążmy to razem"
+  },
+  "Обращение анонимно. Ответ появится в разделе поддержки.": {
+    "en": "Your ticket is anonymous. The reply will appear in Support.",
+    "pl": "Zgłoszenie jest anonimowe. Odpowiedź pojawi się w sekcji Pomoc."
+  },
+  "Тип обращения": {
+    "en": "Ticket category",
+    "pl": "Kategoria zgłoszenia"
+  },
+  "Техническая проблема": {
+    "en": "Technical problem",
+    "pl": "Problem techniczny"
+  },
+  "Вопрос о работе сети": {
+    "en": "Network question",
+    "pl": "Pytanie dotyczące sieci"
+  },
+  "Предложение": {
+    "en": "Suggestion",
+    "pl": "Propozycja"
+  },
+  "Проблема доступности": {
+    "en": "Accessibility issue",
+    "pl": "Problem z dostępnością"
+  },
+  "Приватность и безопасность": {
+    "en": "Privacy and security",
+    "pl": "Prywatność i bezpieczeństwo"
+  },
+  "Жалоба на злоупотребление": {
+    "en": "Report abuse",
+    "pl": "Zgłoszenie nadużycia"
+  },
+  "Другое": {
+    "en": "Other",
+    "pl": "Inne"
+  },
+  "Тема": {
+    "en": "Subject",
+    "pl": "Temat"
+  },
+  "Что случилось или что можно улучшить?": {
+    "en": "What happened or what could be improved?",
+    "pl": "Co się stało lub co można ulepszyć?"
+  },
+  "Подробности": {
+    "en": "Details",
+    "pl": "Szczegóły"
+  },
+  "Опишите ситуацию, шаги и ожидаемый результат. Не указывайте личные данные.": {
+    "en": "Describe the situation, steps, and expected outcome. Do not include personal information.",
+    "pl": "Opisz sytuację, kroki i oczekiwany rezultat. Nie podawaj danych osobowych."
+  },
+  "Обращение доступно вам и разработчику. Сохраните свой ключ в настройках.": {
+    "en": "Only you and the developer can access the ticket. Save your key in Settings.",
+    "pl": "Zgłoszenie jest dostępne dla Ciebie i programisty. Zapisz klucz w ustawieniach."
+  },
+  "Отправляем…": {
+    "en": "Sending…",
+    "pl": "Wysyłanie…"
+  },
+  "Отправить обращение": {
+    "en": "Submit ticket",
+    "pl": "Wyślij zgłoszenie"
+  },
+  "Приватная комната": {
+    "en": "Private room",
+    "pl": "Prywatny pokój"
+  },
+  "Создайте комнату для двоих или войдите по коду приглашения.": {
+    "en": "Create a room for two or join with an invitation code.",
+    "pl": "Utwórz pokój dla dwóch osób lub dołącz kodem zaproszenia."
+  },
+  "WebRTC шифрует сообщения, но прямое соединение может раскрыть IP собеседнику. Это не Tor. По умолчанию связь работает в локальной сети.": {
+    "en": "WebRTC encrypts messages, but a direct connection may reveal your IP to your peer. This is not Tor. Connections work on a local network by default.",
+    "pl": "WebRTC szyfruje wiadomości, ale bezpośrednie połączenie może ujawnić Twój adres IP rozmówcy. To nie Tor. Domyślnie połączenie działa w sieci lokalnej."
+  },
+  "Я понимаю особенности прямого соединения": {
+    "en": "I understand how direct connections work",
+    "pl": "Rozumiem zasady połączenia bezpośredniego"
+  },
+  "Создать новую комнату": {
+    "en": "Create a new room",
+    "pl": "Utwórz nowy pokój"
+  },
+  "или войти по коду": {
+    "en": "or join with a code",
+    "pl": "lub dołącz kodem"
+  },
+  "Код приглашения": {
+    "en": "Invitation code",
+    "pl": "Kod zaproszenia"
+  },
+  "32 символа из приглашения": {
+    "en": "32 characters from your invitation",
+    "pl": "32 znaki z zaproszenia"
+  },
+  "Войти в комнату": {
+    "en": "Join room",
+    "pl": "Dołącz do pokoju"
+  },
+  "Сначала подключитесь к сети в разделе «Обзор».": {
+    "en": "First connect to the network in Overview.",
+    "pl": "Najpierw połącz się z siecią w sekcji Przegląd."
+  },
+  "Приватность без обещаний лишнего": {
+    "en": "Privacy without overpromising",
+    "pl": "Prywatność bez obietnic na wyrost"
+  },
+  "Mgła — учебный прототип P2P-приложения с псевдонимным доступом.": {
+    "en": "Mgła is an academic P2P prototype with pseudonymous access.",
+    "pl": "Mgła to akademicki prototyp aplikacji P2P z dostępem pseudonimowym."
+  },
+  "Что скрыто": {
+    "en": "What stays private",
+    "pl": "Co pozostaje prywatne"
+  },
+  "Регистрация не нужна. Сообщения и файлы идут по зашифрованному WebRTC-каналу и не сохраняются сервером. История диалога хранится только в памяти вкладки.": {
+    "en": "No registration is required. Messages and files travel over an encrypted WebRTC channel and are not stored by the server. Chat history lives only in tab memory.",
+    "pl": "Rejestracja nie jest wymagana. Wiadomości i pliki są przesyłane szyfrowanym kanałem WebRTC i nie są zapisywane na serwerze. Historia rozmowy istnieje tylko w pamięci karty."
+  },
+  "Что видно": {
+    "en": "What is visible",
+    "pl": "Co jest widoczne"
+  },
+  "Сервер и сетевой провайдер видят IP при соединении. Собеседник может узнать ваш IP через WebRTC. Onion routing и скрытие метаданных не реализованы.": {
+    "en": "The server and network provider see your IP when you connect. Your peer may discover your IP through WebRTC. Onion routing and metadata hiding are not implemented.",
+    "pl": "Serwer i dostawca internetu widzą adres IP podczas połączenia. Rozmówca może poznać Twój IP przez WebRTC. Routing cebulowy i ukrywanie metadanych nie są zaimplementowane."
+  },
+  "Обратная связь": {
+    "en": "Feedback",
+    "pl": "Informacje zwrotne"
+  },
+  "Тикеты и ответы сохраняются на сервере. Разработчик видит их текст, категорию и случайный номер. Не отправляйте секреты. Ключ доступа хранится в localStorage этого браузера.": {
+    "en": "Tickets and replies are stored on the server. The developer sees their text, category, and random number. Do not send secrets. Your access key is stored in this browser's localStorage.",
+    "pl": "Zgłoszenia i odpowiedzi są zapisywane na serwerze. Programista widzi ich treść, kategorię i losowy numer. Nie wysyłaj sekretów. Klucz dostępu jest przechowywany w localStorage tej przeglądarki."
+  },
+  "Доступ": {
+    "en": "Access",
+    "pl": "Dostęp"
+  },
+  "Ключ — единственный способ вернуться к своим тикетам. Для публичного использования необходим HTTPS; для работы через интернет могут потребоваться STUN/TURN.": {
+    "en": "Your key is the only way to return to your tickets. Public use requires HTTPS; internet connections may require STUN/TURN.",
+    "pl": "Klucz to jedyny sposób powrotu do zgłoszeń. Publiczne użycie wymaga HTTPS; połączenia przez internet mogą wymagać STUN/TURN."
+  },
+  "Понятно": {
+    "en": "Got it",
+    "pl": "Rozumiem"
+  },
+  "Как пригласить собеседника?": {
+    "en": "How do I invite someone?",
+    "pl": "Jak zaprosić rozmówcę?"
+  },
+  "Подключитесь к сети, создайте комнату и отправьте её код собеседнику другим доверенным способом. Он должен открыть этот же сайт и войти по коду.": {
+    "en": "Connect to the network, create a room, and send its code through another trusted channel. Your peer should open this site and join with the code.",
+    "pl": "Połącz się z siecią, utwórz pokój i prześlij jego kod innym zaufanym kanałem. Rozmówca powinien otworzyć tę stronę i dołączyć kodem."
+  },
+  "Почему соединение не устанавливается?": {
+    "en": "Why won't the connection establish?",
+    "pl": "Dlaczego nie można nawiązać połączenia?"
+  },
+  "По умолчанию настроена связь в локальной сети. Для интернета администратору нужны STUN/TURN; строгие NAT и межсетевые экраны могут блокировать прямое соединение.": {
+    "en": "Local-network connections are configured by default. Internet use requires STUN/TURN; strict NATs and firewalls may block a direct connection.",
+    "pl": "Domyślnie skonfigurowane są połączenia lokalne. Dla internetu administrator potrzebuje STUN/TURN; restrykcyjny NAT i zapory mogą blokować połączenie bezpośrednie."
+  },
+  "Как получить ответ разработчика?": {
+    "en": "How do I get a developer's reply?",
+    "pl": "Jak otrzymać odpowiedź programisty?"
+  },
+  "Создайте тикет. Разработчик ответит из своего кабинета, а статус изменится на «Есть ответ». Список автоматически обновляется каждые 6 секунд.": {
+    "en": "Create a ticket. The developer will reply from their dashboard, and the status will change to Answered. The list refreshes automatically every 6 seconds.",
+    "pl": "Utwórz zgłoszenie. Programista odpowie ze swojego panelu, a status zmieni się na „Jest odpowiedź”. Lista odświeża się automatycznie co 6 sekund."
+  },
+  "Как вернуться к обращению?": {
+    "en": "How do I return to a ticket?",
+    "pl": "Jak wrócić do zgłoszenia?"
+  },
+  "Скопируйте ключ в настройках. На другом устройстве выберите «Войти по ключу». Без ключа восстановить доступ нельзя.": {
+    "en": "Copy your key in Settings. On another device, choose Sign in with a key. Access cannot be recovered without it.",
+    "pl": "Skopiuj klucz w ustawieniach. Na innym urządzeniu wybierz „Zaloguj się kluczem”. Bez klucza nie można odzyskać dostępu."
+  },
+  "Как сообщить о проблеме доступности или злоупотреблении?": {
+    "en": "How do I report an accessibility issue or abuse?",
+    "pl": "Jak zgłosić problem z dostępnością lub nadużycie?"
+  },
+  "Выберите соответствующую категорию тикета. При необходимости можно дополнить обращение, закрыть его, открыть повторно и оценить помощь.": {
+    "en": "Choose the appropriate ticket category. You can add details, close or reopen the ticket, and rate the support.",
+    "pl": "Wybierz odpowiednią kategorię zgłoszenia. Możesz dodać szczegóły, zamknąć lub ponownie otworzyć zgłoszenie i ocenić pomoc."
+  },
+  "Не нашли ответ? Создать тикет": {
+    "en": "Still need help? Create a ticket",
+    "pl": "Nie ma odpowiedzi? Utwórz zgłoszenie"
+  },
+  "Для входа нужен серверный ключ MGLA_ADMIN_TOKEN.": {
+    "en": "Sign-in requires the server's MGLA_ADMIN_TOKEN key.",
+    "pl": "Logowanie wymaga klucza serwera MGLA_ADMIN_TOKEN."
+  },
+  "Кабинет разработчика открыт": {
+    "en": "Developer dashboard opened",
+    "pl": "Otwarto panel programisty"
+  },
+  "Ключ разработчика": {
+    "en": "Developer key",
+    "pl": "Klucz programisty"
+  },
+  "Войти": {
+    "en": "Sign in",
+    "pl": "Zaloguj się"
+  },
+  "Текущая сессия будет заменена. Сохраните её ключ, если хотите вернуться к своим обращениям.": {
+    "en": "Your current session will be replaced. Save its key if you want to return to your tickets.",
+    "pl": "Bieżąca sesja zostanie zastąpiona. Zapisz jej klucz, jeśli chcesz wrócić do swoich zgłoszeń."
+  },
+  "Нужен ключ из 64 символов, сохранённый в настройках.": {
+    "en": "Enter the 64-character key saved from Settings.",
+    "pl": "Wprowadź 64-znakowy klucz zapisany w ustawieniach."
+  },
+  "Ключ восстановлен": {
+    "en": "Key restored",
+    "pl": "Przywrócono klucz"
+  },
+  "Ваш сохранённый ключ": {
+    "en": "Your saved key",
+    "pl": "Twój zapisany klucz"
+  },
+  "Открыть пространство": {
+    "en": "Open workspace",
+    "pl": "Otwórz przestrzeń"
+  },
+  "Завершить сессию?": {
+    "en": "End your session?",
+    "pl": "Zakończyć sesję?"
+  },
+  "Сохраните ключ в настройках, чтобы не потерять доступ к обращениям. Диалоги текущей комнаты исчезнут.": {
+    "en": "Save your key in Settings to keep access to your tickets. Conversations in the current room will disappear.",
+    "pl": "Zapisz klucz w ustawieniach, aby zachować dostęp do zgłoszeń. Rozmowy w bieżącym pokoju znikną."
+  },
+  "Создаётся новое анонимное пространство": {
+    "en": "Creating a new anonymous workspace",
+    "pl": "Tworzenie nowej anonimowej przestrzeni"
+  },
+  "Ключ сохранён, завершить": {
+    "en": "Key saved, end session",
+    "pl": "Klucz zapisany, zakończ"
+  },
+  "Mgła 1.0 — начало пути": {
+    "en": "Mgła 1.0 — the beginning",
+    "pl": "Mgła 1.0 — początek drogi"
+  },
+  "05 ноября 2026": {
+    "en": "5 November 2026",
+    "pl": "5 listopada 2026"
+  },
+  "Пространство для двоих": {
+    "en": "A space for two",
+    "pl": "Przestrzeń dla dwojga"
+  },
+  "Комнаты по случайному коду, зашифрованный WebRTC-диалог и передача файлов до 5 МБ.": {
+    "en": "Random-code rooms, encrypted WebRTC conversations, and file transfers up to 5 MB.",
+    "pl": "Pokoje z losowym kodem, szyfrowane rozmowy WebRTC i przesyłanie plików do 5 MB."
+  },
+  "Разработчики рядом": {
+    "en": "Developers within reach",
+    "pl": "Programiści blisko Ciebie"
+  },
+  "Анонимные обращения, ответы, статусы, повторное открытие и оценка поддержки.": {
+    "en": "Anonymous tickets, replies, statuses, reopening, and support ratings.",
+    "pl": "Anonimowe zgłoszenia, odpowiedzi, statusy, ponowne otwieranie i oceny pomocy."
+  },
+  "Следующий шаг": {
+    "en": "What's next",
+    "pl": "Następny krok"
+  },
+  "Усиление сетевой анонимности и TURN-инфраструктура. Эти возможности пока не реализованы.": {
+    "en": "Stronger network anonymity and TURN infrastructure. These features are not implemented yet.",
+    "pl": "Większa anonimowość w sieci i infrastruktura TURN. Te funkcje nie są jeszcze zaimplementowane."
+  },
+  "Поделиться идеей": {
+    "en": "Share an idea",
+    "pl": "Podziel się pomysłem"
+  },
+  "Сервер недоступен. Проверьте подключение и повторите.": {
+    "en": "The server is unavailable. Check your connection and try again.",
+    "pl": "Serwer jest niedostępny. Sprawdź połączenie i spróbuj ponownie."
+  },
+  "Не удалось выполнить запрос.": {
+    "en": "The request could not be completed.",
+    "pl": "Nie udało się wykonać żądania."
+  },
+  "Не удалось прочитать данные собеседника.": {
+    "en": "Could not read your peer's data.",
+    "pl": "Nie udało się odczytać danych rozmówcy."
+  },
+  "Не удалось установить соединение. Выйдите и войдите в комнату повторно.": {
+    "en": "Could not connect. Leave the room and join again.",
+    "pl": "Nie udało się połączyć. Opuść pokój i dołącz ponownie."
+  },
+  "Дождитесь соединения с собеседником.": {
+    "en": "Wait for your peer to connect.",
+    "pl": "Poczekaj na połączenie z rozmówcą."
+  },
+  "Сначала подключите собеседника.": {
+    "en": "First connect with your peer.",
+    "pl": "Najpierw połącz się z rozmówcą."
+  },
+  "Максимальный размер файла — 5 МБ.": {
+    "en": "The maximum file size is 5 MB.",
+    "pl": "Maksymalny rozmiar pliku to 5 MB."
+  },
+  "Передача прервана": {
+    "en": "Transfer interrupted",
+    "pl": "Przesyłanie przerwane"
+  },
+  "Неверный формат запроса": {
+    "en": "Invalid request format",
+    "pl": "Nieprawidłowy format żądania"
+  },
+  "Недопустимый источник": {
+    "en": "Origin not allowed",
+    "pl": "Niedozwolone źródło"
+  },
+  "Нужен ключ доступа": {
+    "en": "An access key is required",
+    "pl": "Wymagany jest klucz dostępu"
+  },
+  "Метод недоступен": {
+    "en": "Method not allowed",
+    "pl": "Metoda niedozwolona"
+  },
+  "Неверный ключ разработчика": {
+    "en": "Invalid developer key",
+    "pl": "Nieprawidłowy klucz programisty"
+  },
+  "Укажите тему и описание (до 10 000 символов)": {
+    "en": "Enter a subject and description (up to 10,000 characters)",
+    "pl": "Podaj temat i opis (do 10 000 znaków)"
+  },
+  "Лимит: 100 обращений на ключ": {
+    "en": "Limit: 100 tickets per key",
+    "pl": "Limit: 100 zgłoszeń na klucz"
+  },
+  "Не удалось сохранить обращение": {
+    "en": "Could not save the ticket",
+    "pl": "Nie udało się zapisać zgłoszenia"
+  },
+  "Обращение не найдено": {
+    "en": "Ticket not found",
+    "pl": "Nie znaleziono zgłoszenia"
+  },
+  "Некорректное сообщение": {
+    "en": "Invalid message",
+    "pl": "Nieprawidłowa wiadomość"
+  },
+  "Некорректный статус": {
+    "en": "Invalid status",
+    "pl": "Nieprawidłowy status"
+  },
+  "Не удалось сохранить ответ": {
+    "en": "Could not save the reply",
+    "pl": "Nie udało się zapisać odpowiedzi"
+  },
+  "Неверный код комнаты": {
+    "en": "Invalid room code",
+    "pl": "Nieprawidłowy kod pokoju"
+  },
+  "Слишком много комнат": {
+    "en": "Too many rooms",
+    "pl": "Zbyt wiele pokoi"
+  },
+  "В комнате уже два участника": {
+    "en": "The room already has two participants",
+    "pl": "W pokoju jest już dwóch uczestników"
+  },
+  "Состав комнаты изменился, повторите соединение": {
+    "en": "Room membership changed. Reconnect to continue.",
+    "pl": "Skład pokoju uległ zmianie. Połącz się ponownie."
+  },
+  "Участник отключился": {
+    "en": "The peer disconnected",
+    "pl": "Uczestnik się rozłączył"
+  },
+  "Сначала войдите в комнату": {
+    "en": "Join the room first",
+    "pl": "Najpierw dołącz do pokoju"
+  },
+  "Не найдено": {
+    "en": "Not found",
+    "pl": "Nie znaleziono"
+  },
+  "Язык интерфейса": {
+    "en": "Interface language",
+    "pl": "Język interfejsu"
+  }
+}

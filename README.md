@@ -1,6 +1,6 @@
 # Mgła — Private P2P Space
 
-An educational human-computer interaction (HCI) project. Built with React + Vite, Go (standard library), and WebRTC DataChannel. The visual design is based on the dark desktop prototype of Mgła from the provided Figma mockup: sidebar navigation, purple accent, prominent connect button, network states, and settings. The interface is available in Russian, English, and Polish, and adapted for mobile devices. The language switcher is located in the top bar; your selection is saved in localStorage (`mgla-language`). Dates, labels, help text, and error messages are translated, while user-generated content remains unchanged.
+An educational human-computer interaction (HCI) project. Built with React + Vite, Go (standard library), and WebRTC DataChannel. The visual design is based on the dark desktop prototype of Mgła from the provided Figma mockup: sidebar navigation, purple accent, prominent connect button, network states, and settings. The interface is available in Russian, English, and Polish, and adapted for mobile devices. English is the default on first launch. The guide also includes a language selector. The language switcher is located in the top bar; your selection is saved in localStorage (`mgla-language`). Dates, labels, help text, and error messages are translated, while user-generated content remains unchanged.
 
 ## Getting Started
 

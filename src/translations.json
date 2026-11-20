@@ -852,8 +852,8 @@
     "pl": "Inne"
   },
   "Тема": {
-    "en": "Subject",
-    "pl": "Temat"
+    "en": "Theme",
+    "pl": "Motyw"
   },
   "Что случилось или что можно улучшить?": {
     "en": "What happened or what could be improved?",
@@ -1206,5 +1206,157 @@
   "Язык интерфейса": {
     "en": "Interface language",
     "pl": "Język interfejsu"
+  },
+  "Внешний вид": {
+    "en": "Appearance",
+    "pl": "Wygląd"
+  },
+  "Шрифт": {
+    "en": "Font",
+    "pl": "Czcionka"
+  },
+  "Тёмная": {
+    "en": "Dark",
+    "pl": "Ciemny"
+  },
+  "Светлая": {
+    "en": "Light",
+    "pl": "Jasny"
+  },
+  "Системный": {
+    "en": "System",
+    "pl": "Systemowa"
+  },
+  "Моноширинный": {
+    "en": "Monospace",
+    "pl": "O stałej szerokości"
+  },
+  "Выбор сохраняется в этом браузере.": {
+    "en": "Your preferences are saved in this browser.",
+    "pl": "Ustawienia są zapisywane w tej przeglądarce."
+  },
+  "Включить светлую тему": {
+    "en": "Switch to light theme",
+    "pl": "Włącz jasny motyw"
+  },
+  "Включить тёмную тему": {
+    "en": "Switch to dark theme",
+    "pl": "Włącz ciemny motyw"
+  },
+  "Гайд по приложению": {
+    "en": "App guide",
+    "pl": "Przewodnik po aplikacji"
+  },
+  "Закрыть гайд": {
+    "en": "Close guide",
+    "pl": "Zamknij przewodnik"
+  },
+  "Назад": {
+    "en": "Back",
+    "pl": "Wstecz"
+  },
+  "Далее": {
+    "en": "Next",
+    "pl": "Dalej"
+  },
+  "Начать": {
+    "en": "Get started",
+    "pl": "Zaczynamy"
+  },
+  "Добро пожаловать в Mgła": {
+    "en": "Welcome to Mgła",
+    "pl": "Witamy w Mgła"
+  },
+  "Здесь можно общаться и передавать файлы без регистрации. Слева расположены все разделы; язык выбирается вверху.": {
+    "en": "Chat and share files without registering. All sections are on the left; choose your language at the top.",
+    "pl": "Rozmawiaj i przesyłaj pliki bez rejestracji. Wszystkie sekcje są po lewej stronie; język wybierzesz u góry."
+  },
+  "Подключение и отключение": {
+    "en": "Connect and disconnect",
+    "pl": "Łączenie i rozłączanie"
+  },
+  "На главной нажмите круглую кнопку питания. Выключенная кнопка серая, включённая — зелёная с галочкой. Повторное нажатие отключает сеть и завершает текущий разговор.": {
+    "en": "On the overview, press the round power button. It is grey when off and green with a checkmark when on. Press it again to disconnect and end the current conversation.",
+    "pl": "Na ekranie głównym naciśnij okrągły przycisk zasilania. Wyłączony jest szary, a włączony — zielony ze znacznikiem wyboru. Ponowne naciśnięcie rozłącza sieć i kończy bieżącą rozmowę."
+  },
+  "Комната, сообщения и файлы": {
+    "en": "Rooms, messages and files",
+    "pl": "Pokoje, wiadomości i pliki"
+  },
+  "После подключения создайте комнату и передайте её код собеседнику. Он входит по коду на этом же сайте. В разделе «Сообщения» можно писать, а в «Файлы» — отправлять файлы до 5 МБ.": {
+    "en": "Once connected, create a room and share its code with your partner. They join using the code on this same site. Use Messages to chat and Files to send files up to 5 MB.",
+    "pl": "Po połączeniu utwórz pokój i przekaż jego kod rozmówcy. Dołączy on za pomocą kodu na tej samej stronie. W sekcji Wiadomości możesz pisać, a w sekcji Pliki — przesyłać pliki do 5 MB."
+  },
+  "Помощь и обратная связь": {
+    "en": "Help and feedback",
+    "pl": "Pomoc i kontakt"
+  },
+  "В разделе «Поддержка» создайте обращение разработчику, прочитайте ответ и дополните вопрос. Сохраните ключ доступа из настроек, чтобы вернуться к обращениям.": {
+    "en": "In Support, create a ticket for the developer, read replies and follow up. Save your access key from Settings to return to your tickets.",
+    "pl": "W sekcji Pomoc utwórz zgłoszenie do programisty, przeczytaj odpowiedź i dodaj pytania. Zachowaj klucz dostępu z Ustawień, aby wrócić do zgłoszeń."
+  },
+  "Настройте приложение под себя": {
+    "en": "Make yourself at home",
+    "pl": "Dostosuj aplikację do siebie"
+  },
+  "Переключайте светлую и тёмную тему вверху. В настройках выберите удобный шрифт. Гайд можно открыть снова кнопкой с книгой. Прямое соединение не скрывает IP-адрес.": {
+    "en": "Switch between light and dark themes at the top. Choose a font in Settings. Reopen this guide with the book button. A direct connection does not hide your IP address.",
+    "pl": "U góry przełączysz jasny i ciemny motyw. W Ustawieniach wybierzesz czcionkę. Przewodnik otworzysz ponownie przyciskiem z książką. Bezpośrednie połączenie nie ukrywa adresu IP."
+  },
+  "Схема: куда нажать": {
+    "en": "Diagram: where to click",
+    "pl": "Schemat: gdzie kliknąć"
+  },
+  "Куда нажать": {
+    "en": "Where to click",
+    "pl": "Gdzie kliknąć"
+  },
+  "Схема интерфейса": {
+    "en": "Interface diagram",
+    "pl": "Schemat interfejsu"
+  },
+  "Разделы приложения": {
+    "en": "App sections",
+    "pl": "Sekcje aplikacji"
+  },
+  "Выберите раздел слева": {
+    "en": "Choose a section on the left",
+    "pl": "Wybierz sekcję po lewej"
+  },
+  "Нажмите здесь": {
+    "en": "Click here",
+    "pl": "Kliknij tutaj"
+  },
+  "Повторное нажатие — отключение": {
+    "en": "Click again to disconnect",
+    "pl": "Kliknij ponownie, aby się rozłączyć"
+  },
+  "Затем передайте код собеседнику": {
+    "en": "Then share the code with your partner",
+    "pl": "Następnie przekaż kod rozmówcy"
+  },
+  "Опишите проблему и отправьте обращение": {
+    "en": "Describe the problem and submit your ticket",
+    "pl": "Opisz problem i wyślij zgłoszenie"
+  },
+  "Тема — вверху, шрифт — в настройках": {
+    "en": "Theme at the top, font in Settings",
+    "pl": "Motyw u góry, czcionka w Ustawieniach"
+  },
+  "Размер текста": {
+    "en": "Text size",
+    "pl": "Rozmiar tekstu"
+  },
+  "Маленький": {
+    "en": "Small",
+    "pl": "Mały"
+  },
+  "Обычный": {
+    "en": "Default",
+    "pl": "Standardowy"
+  },
+  "Крупный": {
+    "en": "Large",
+    "pl": "Duży"
   }
 }

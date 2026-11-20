@@ -94,8 +94,8 @@ func TestRoomSignaling(t *testing.T) {
 	if request(s, "POST", room, a, `{}`).Code != 200 || request(s, "POST", room, b, `{}`).Code != 200 {
 		t.Fatal("join")
 	}
-	if request(s, "POST", room, c, `{}`).Code != 409 {
-		t.Fatal("room capacity")
+	if request(s, "POST", room, c, `{}`).Code != 410 {
+		t.Fatal("room code should be single-use")
 	}
 	body := `{"generation":2,"to":"` + hash(b)[:12] + `","data":{"description":{"type":"offer","sdp":"test"}}}`
 	if request(s, "POST", room, a, body).Code != 200 {
@@ -113,8 +113,12 @@ func TestRoomSignaling(t *testing.T) {
 		t.Fatal("room isolation")
 	}
 	request(s, "DELETE", room, a, "")
+	if request(s, "POST", room, c, `{}`).Code != 410 {
+		t.Fatal("used room accepted a new participant")
+	}
+	request(s, "DELETE", room, b, "")
 	if request(s, "POST", room, c, `{}`).Code != 200 {
-		t.Fatal("slot release")
+		t.Fatal("room should be reusable after both participants leave")
 	}
 }
 func TestPersistenceFailureIsRolledBack(t *testing.T) {

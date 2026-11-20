@@ -7,3 +7,68 @@
 .language-switch select{min-height:36px;padding:7px 19px 7px 0;background:transparent;border:0;color:#ddd2f1;font-size:11px;cursor:pointer;max-width:110px}
 .language-switch option{background:#201c2b;color:#ede7f7}
 @media(max-width:700px){.header-right{gap:8px}.header-status{display:none}.language-switch{gap:5px;padding:0 7px}.language-switch select{max-width:91px;font-size:11px}.breadcrumb>span{display:none}.breadcrumb{gap:5px}}
+
+/* Readability and clear connection states */
+:root{font-size:16px}
+h1{font-size:32px}
+h2{font-size:18px}
+h3{font-size:17px}
+.page-title p{font-size:15px;line-height:1.8}
+.panel{border-radius:14px}
+.connection,.identity,.quick-start,.padded{padding:30px}
+.connection-copy p,.action-card p,.news-content p,.feedback p,.support-card p,.subtext{font-size:13px;line-height:1.8}
+.connection-copy h3{font-size:22px}
+.connection-copy .button.primary{background:#2e9d78;border-color:#57c89d;color:#fff}
+.connection-copy .button.primary:hover{background:#3bb58b}
+.connection-copy .button.secondary{background:#a94457;border-color:#d66b7e;color:#fff}
+.connection-copy .button.secondary:hover{background:#c45468}
+.button{font-size:14px;padding:13px 19px;min-height:44px}
+.quick-start::after{content:'Как передать код: создайте комнату, нажмите на код приглашения и отправьте его собеседнику через удобный канал — например, лично или в отдельном защищённом мессенджере. Код комнаты одноразовый: после подключения собеседника он больше не работает. Если код увидит кто-то ещё до подключения, создайте новую комнату.';display:block;width:100%;max-width:100%;margin-top:24px;padding:18px 20px;border:1px solid #58456d;border-radius:10px;background:#282039;color:#d8ccef;font-size:14px;line-height:1.8;white-space:normal;overflow-wrap:break-word;word-break:normal;box-sizing:border-box}
+html:lang(en) .quick-start::after{content:'How to share the code: create a room, click the invitation code, and send it to your conversation partner through a trusted channel — for example, in person or in a separate secure messenger. The room code works only once: after your partner connects, it no longer works. If someone else sees the code before the connection, create a new room.'}
+html:lang(pl) .quick-start::after{content:'Jak przekazać kod: utwórz pokój, kliknij kod zaproszenia i wyślij go rozmówcy zaufanym kanałem — na przykład osobiście lub w osobnym bezpiecznym komunikatorze. Kod pokoju działa tylko raz: po połączeniu rozmówcy przestaje działać. Jeśli ktoś inny zobaczy kod przed połączeniem, utwórz nowy pokój.'}
+.app{zoom:var(--ui-scale,1)}
+.display-controls{position:fixed;right:24px;bottom:24px;z-index:80;display:flex;align-items:center;gap:5px;padding:5px;border:1px solid #4b4260;border-radius:12px;background:#201b2b;box-shadow:0 8px 24px #0006}
+.display-controls>button{min-width:38px;height:38px;border:0;border-radius:8px;background:#2d2540;color:#e2d7f7;font-size:14px;font-weight:600;line-height:1;transition:transform .15s,background .15s}
+.display-controls>button:hover{transform:scale(1.06);background:#403257}
+.display-controls .scale-reset{min-width:50px;color:#bba8d9;font-size:11px}
+.theme-toggle{width:42px!important;border-radius:50%!important;background:#282039!important;color:#f1d878!important;font-size:22px!important}
+.theme-toggle:hover{transform:scale(1.08);background:#382c50}
+:root[data-theme="light"]{--muted:#626676;--line:#d9d7e2;--panel:#fff;color:#25232d;background:#f3f2f7}
+:root[data-theme="light"] body{background:#f3f2f7;color:#25232d}
+:root[data-theme="light"] .sidebar{background:#fff;border-color:#dedce6}
+:root[data-theme="light"] .shell header{background:#f8f7fb;border-color:#dedce6}
+:root[data-theme="light"] .breadcrumb>span,.page-title p,.date,.connection-copy p,.connection-stats span,.section-label>span,.action-card p,.news-content p,.feedback p,.subtext,.support-card p,.empty p,.chat-hint,.file-drop p,.file-drop small,.settings-aside p,.modal>p{color:#626676}
+:root[data-theme="light"] .workspace,.panel,.room-toolbar,.chat,.ticket-item,.ticket-thread,.search,.file-drop{background:#fff;border-color:#dedce6}
+:root[data-theme="light"] .connection{background:#fff}
+:root[data-theme="light"] .quick-start{background:linear-gradient(125deg,#f4efff,#fff)}
+:root[data-theme="light"] .quick-start::after{background:#f1ebff;border-color:#cfc0e8;color:#403453}
+:root[data-theme="light"] .action-card:hover,.nav-item:hover{background:#f0edf7}
+:root[data-theme="light"] .nav-item{color:#626676}
+:root[data-theme="light"] .nav-item.active{background:#eee7ff;color:#5d43a0}
+:root[data-theme="light"] .privacy-note,.settings-aside{background:#f5f0fb;border-color:#d8cce8}
+:root[data-theme="light"] .button.secondary{background:#f0eef5;border-color:#c9c6d4;color:#373442}
+:root[data-theme="light"] .button.secondary:hover{background:#e3e0eb}
+:root[data-theme="light"] input,:root[data-theme="light"] textarea,:root[data-theme="light"] select{background:#fff;border-color:#c9c6d4;color:#25232d}
+:root[data-theme="light"] .identity-row button,.secret{background:#f3f1f7;border-color:#d2cfdb;color:#403d4b}
+:root[data-theme="light"] .info{background:#f0eef8;border-color:#d7cde8;color:#504866}
+:root[data-theme="light"] .chat-message{background:#f1eff6;border-color:#d6d1df;color:#25232d}
+:root[data-theme="light"] .chat-message.own{background:#e8dcff;border-color:#c4a8ee}
+:root[data-theme="light"] .modal-backdrop{background:#20202a99}
+:root[data-theme="light"] .modal{background:#fff;border-color:#d7d2e0;color:#25232d}
+:root[data-theme="light"] details{border-color:#ded9e5}
+:root[data-theme="light"] summary{color:#403b4d}
+:root[data-theme="light"] .display-controls{background:#fff;border-color:#c9c3d5;box-shadow:0 8px 24px #61517a2b}
+:root[data-theme="light"] .display-controls>button{background:#f0edf7;color:#4c3d75}
+:root[data-theme="light"] .display-controls>button:hover{background:#e1d8f3}
+:root[data-theme="light"] .theme-toggle{background:#fff!important;color:#6852a7!important}
+@media(max-width:700px){.display-controls{right:18px;bottom:18px}.display-controls>button{min-width:34px;height:34px}.display-controls .scale-reset{min-width:45px}}
+.quick-start h2{font-size:17px}
+.step{font-size:13px;line-height:1.7}
+.identity-row{font-size:13px}
+.identity-row button,.identity-row b{font-size:12px}
+.mini-label,.eyebrow{font-size:10px}
+.info{font-size:13px;line-height:1.8;padding:16px}
+.chat-message p,.ticket-message p{font-size:14px}
+.empty p,details p,.explain p,.modal>p{font-size:14px;line-height:1.9}
+@media(max-width:1200px){.connection,.identity,.quick-start,.padded{padding:24px}h1{font-size:28px}}
+@media(max-width:700px){h1{font-size:26px}.page-title p{font-size:14px}.connection,.identity,.quick-start,.padded{padding:20px}.connection-copy h3{font-size:20px}.connection-copy p,.action-card p,.news-content p,.feedback p,.support-card p,.subtext{font-size:13px}.button{font-size:13px}.quick-start::after{font-size:12px;padding:15px}.step{font-size:12px}}

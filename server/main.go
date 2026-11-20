@@ -50,6 +50,7 @@ type Room struct {
 	Signals    []Signal
 	Seq        int
 	Generation int
+	Used       bool
 }
 type Server struct {
 	NextGeneration int
@@ -331,6 +332,10 @@ func (s *Server) api(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		if r.Method == "POST" {
+			if _, ok := room.Members[id]; !ok && room.Used {
+				fail(w, 410, "Код комнаты уже использован")
+				return
+			}
 			if _, ok := room.Members[id]; !ok && len(room.Members) >= 2 {
 				fail(w, 409, "В комнате уже два участника")
 				return
@@ -341,6 +346,9 @@ func (s *Server) api(w http.ResponseWriter, r *http.Request) {
 				room.Signals = nil
 			}
 			room.Members[id] = time.Now()
+			if len(room.Members) >= 2 {
+				room.Used = true
+			}
 			var in struct {
 				To         string
 				Generation int

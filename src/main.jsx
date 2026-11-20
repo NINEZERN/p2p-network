@@ -22,6 +22,7 @@ function App() {
   const translate = t;
   const [page, setPage] = useState('Обзор'),
     [key, setKey] = useState(localStorage.getItem('mgla-key') || ''),
+    [sessionKey, setSessionKey] = useState(''),
     [online, setOnline] = useState(false),
     [peers, setPeers] = useState([]),
     [id, setId] = useState(''),
@@ -44,7 +45,7 @@ function App() {
     [draft, setDraft] = useState(''),
     [sending, setSending] = useState(false);
   const alert = useCallback(msg => setError(msg), []);
-  const peer = usePeer(room, online, alert);
+  const peer = usePeer(room, online, alert, sessionKey);
   const fileRef = useRef(),
     dialogRef = useRef(),
     previousFocus = useRef();
@@ -84,11 +85,17 @@ function App() {
     };
   }, [key]);
   useEffect(() => {
-    if (!key) api('session', post({})).then(d => {
-      localStorage.setItem('mgla-key', d.token);
-      setKey(d.token);
-    }).catch(e => setError(e.message));
-  }, [key]);
+    let alive = true;
+    api('session', post({})).then(d => {
+      if (!alive) return;
+      setSessionKey(d.token);
+      if (!key) {
+        localStorage.setItem('mgla-key', d.token);
+        setKey(d.token);
+      }
+    }).catch(e => alive && setError(e.message));
+    return () => { alive = false; };
+  }, []);
   useEffect(() => {
     if (!toast) return;
     const t = setTimeout(() => setToast(''), 3500);
@@ -108,9 +115,9 @@ function App() {
     return () => clearInterval(t);
   }, [load]);
   useEffect(() => {
-    if (!online || !key) return;
+    if (!online || !key || !sessionKey) return;
     let alive = true;
-    const tick = () => api('presence', post({})).then(d => {
+    const tick = () => api('presence', post({}), sessionKey).then(d => {
       if (alive) {
         setPeers(d.peers);
         setId(d.id);
@@ -128,9 +135,9 @@ function App() {
       clearInterval(t);
       api('presence', {
         method: 'DELETE'
-      }).catch(() => {});
+      }, sessionKey).catch(() => {});
     };
-  }, [online, key]);
+  }, [online, key, sessionKey]);
   useEffect(() => {
     if (!started) return;
     const t = setInterval(() => setElapsed(Math.floor((Date.now() - started) / 1000)), 1000);
@@ -147,6 +154,7 @@ function App() {
     }
   }
   async function connect() {
+    if (!sessionKey) return;
     if (online) {
       setOnline(false);
       setRoom('');
@@ -157,7 +165,7 @@ function App() {
     }
     setBusy(true);
     try {
-      const d = await api('presence', post({}));
+      const d = await api('presence', post({}), sessionKey);
       setId(d.id);
       setPeers(d.peers);
       setOnline(true);
@@ -246,6 +254,7 @@ function App() {
               const d = await api('session', post({}));
               localStorage.setItem('mgla-key', d.token);
               setKey(d.token);
+              setSessionKey(d.token);
               setError('');
             } catch (e) {
               setError(e.message);
@@ -385,4 +394,19 @@ function Empty({
   } = useLanguage();
   return <div className="empty"><span className="empty-icon"><Icon size={32} /></span><h2>{t(title)}</h2><p>{t(text)}</p>{action}</div>;
 }
-createRoot(document.getElementById('root')).render(<LanguageProvider><App /></LanguageProvider>);
+function ThemeToggle() {
+  const {t} = useLanguage();
+  const [light, setLight] = useState(() => localStorage.getItem('mgla-theme') === 'light');
+  const [scale, setScale] = useState(() => Number(localStorage.getItem('mgla-scale')) || 1);
+  useEffect(() => {
+    document.documentElement.dataset.theme = light ? 'light' : 'dark';
+    localStorage.setItem('mgla-theme', light ? 'light' : 'dark');
+  }, [light]);
+  useEffect(() => {
+    const nextScale = [0.85, 1, 1.15].includes(scale) ? scale : 1;
+    document.documentElement.style.setProperty('--ui-scale', nextScale);
+    localStorage.setItem('mgla-scale', nextScale);
+  }, [scale]);
+  return <div className="display-controls"><button type="button" onClick={() => setScale(value => value === 1.15 ? 1 : 0.85)} aria-label={t('Уменьшить размер интерфейса')} title={t('Уменьшить размер интерфейса')}>A−</button><button type="button" className="scale-reset" onClick={() => setScale(1)} aria-label={t('Сбросить размер интерфейса')} title={t('Сбросить размер интерфейса')}>{Math.round(scale * 100)}%</button><button type="button" onClick={() => setScale(value => value === 0.85 ? 1 : 1.15)} aria-label={t('Увеличить размер интерфейса')} title={t('Увеличить размер интерфейса')}>A+</button><button className="theme-toggle" type="button" onClick={() => setLight(value => !value)} aria-label={t('Переключить тему')} title={t('Переключить тему')}>{light ? '☾' : '☀'}</button></div>;
+}
+createRoot(document.getElementById('root')).render(<LanguageProvider><ThemeToggle /><App /></LanguageProvider>);

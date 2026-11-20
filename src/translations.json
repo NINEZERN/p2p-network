@@ -39,6 +39,22 @@
     "en": "Closed",
     "pl": "Zamknięte"
   },
+  "Уменьшить размер интерфейса": {
+    "en": "Decrease interface size",
+    "pl": "Zmniejsz rozmiar interfejsu"
+  },
+  "Сбросить размер интерфейса": {
+    "en": "Reset interface size",
+    "pl": "Resetuj rozmiar interfejsu"
+  },
+  "Увеличить размер интерфейса": {
+    "en": "Increase interface size",
+    "pl": "Zwiększ rozmiar interfejsu"
+  },
+  "Переключить тему": {
+    "en": "Toggle theme",
+    "pl": "Przełącz motyw"
+  },
   "Скопировано": {
     "en": "Copied",
     "pl": "Skopiowano"

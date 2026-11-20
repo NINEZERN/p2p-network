@@ -20,7 +20,7 @@ function savedLanguage() {
     const saved = localStorage.getItem('mgla-language');
     if (languages.includes(saved)) return saved;
   } catch { /* The language still works when browser storage is unavailable. */ }
-  return 'ru';
+  return 'en';
 }
 const LanguageContext = createContext(null);
 export function LanguageProvider({children}) {
